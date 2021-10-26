@@ -33,4 +33,4 @@ app.post("/view", upload.single("img"), (req, res, next) => {
   console.log(data.photo);
 });
 
-app.listen(3000);
+app.listen(3000 || 5000);
